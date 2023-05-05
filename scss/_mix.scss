@@ -1,0 +1,19 @@
+@mixin daj {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin da {
+  display: flex;
+  align-items: center;
+}
+
+@mixin dff {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+$allRadius: 5px;
+$allTransition: 0.3s;
