@@ -2,16 +2,16 @@
 
 .header {
   width: 100%;
-  height: 80vh;
   background-color: $mainColor;
   background-image: url("https://platform.docplanner.com/img/tr/homepage/homepage-bg-tr.jpg?v=9");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 100px;
 }
 
 .header .navbar {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   @include daj;
   padding: 10px 0;
@@ -61,7 +61,7 @@
 }
 
 .header .header_block {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   @include dff;
   margin-top: 150px;
@@ -77,5 +77,112 @@
     color: $lightColor;
     opacity: 0.8;
     margin-top: 20px;
+  }
+  .meet_form {
+    width: 70%;
+    @include dff;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: $allRadius;
+    background-color: rgba(0, 0, 0, 0.1);
+    .form_btn_gr {
+      @include da;
+      .face_to_face_btn,
+      .online_btn {
+        @include da;
+        padding: 10px 15px;
+        border: 1px solid $lightColor;
+        background-color: $lightColor;
+        border-radius: 20px;
+        small {
+          font-weight: 500;
+          font-size: $smallSize;
+          color: $darkColor;
+          margin-left: 5px;
+        }
+        i {
+          font-size: $middleSize;
+          color: $blueColor;
+        }
+      }
+      .online_btn {
+        background: transparent;
+        margin-left: 20px;
+        small {
+          color: $lightColor;
+        }
+        i {
+          color: $lightColor;
+        }
+      }
+    }
+    form {
+      width: 100%;
+      @include dj;
+      margin-top: 20px;
+      input {
+        width: 40%;
+        outline: none;
+        border-radius: $allRadius;
+        border: none;
+        padding: 20px;
+        font-weight: 400;
+        font-size: $smallSize;
+      }
+      button {
+        width: 18%;
+        @include dac;
+        border: none;
+        border-radius: $allRadius;
+        background-color: $blueColor;
+        cursor: pointer;
+        small {
+          font-weight: 500;
+          font-size: $smallSize;
+          color: $lightColor;
+          margin-left: 10px;
+        }
+        i {
+          font-size: $middleSize;
+          color: $lightColor;
+        }
+      }
+    }
+  }
+  .ps_counseling {
+    width: 60%;
+    background-color: $lightColor;
+    border-radius: $allRadius;
+    padding: 10px 0;
+    margin-top: 20px;
+    @include dff;
+    .flag_couns {
+      width: 100%;
+      @include da;
+      padding: 0 25px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      .flag {
+        font-size: $middleSize;
+        color: $blueColor;
+      }
+      b {
+        font-weight: 500;
+        font-size: $smallSize;
+        margin-left: 10px;
+      }
+    }
+    h6 {
+      font-weight: 400;
+      font-size: $smallSize;
+      padding-left: 25px;
+      padding-top: 20px;
+    }
+    a {
+      font-weight: 500;
+      font-size: $smallSize;
+      padding: 10px 25px;
+      color: $blueColor;
+    }
   }
 }

@@ -14,16 +14,16 @@ body {
 
 .header {
   width: 100%;
-  height: 80vh;
   background-color: #00C2A5;
   background-image: url("https://platform.docplanner.com/img/tr/homepage/homepage-bg-tr.jpg?v=9");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 100px;
 }
 
 .header .navbar {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@ body {
 }
 
 .header .header_block {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -98,4 +98,123 @@ body {
   color: #ffffff;
   opacity: 0.8;
   margin-top: 20px;
+}
+.header .header_block .meet_form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.header .header_block .meet_form .form_btn_gr {
+  display: flex;
+  align-items: center;
+}
+.header .header_block .meet_form .form_btn_gr .face_to_face_btn,
+.header .header_block .meet_form .form_btn_gr .online_btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.header .header_block .meet_form .form_btn_gr .face_to_face_btn small,
+.header .header_block .meet_form .form_btn_gr .online_btn small {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  margin-left: 5px;
+}
+.header .header_block .meet_form .form_btn_gr .face_to_face_btn i,
+.header .header_block .meet_form .form_btn_gr .online_btn i {
+  font-size: 22px;
+  color: #3d83df;
+}
+.header .header_block .meet_form .form_btn_gr .online_btn {
+  background: transparent;
+  margin-left: 20px;
+}
+.header .header_block .meet_form .form_btn_gr .online_btn small {
+  color: #ffffff;
+}
+.header .header_block .meet_form .form_btn_gr .online_btn i {
+  color: #ffffff;
+}
+.header .header_block .meet_form form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header .header_block .meet_form form input {
+  width: 40%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header .header_block .meet_form form button {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #3d83df;
+  cursor: pointer;
+}
+.header .header_block .meet_form form button small {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.header .header_block .meet_form form button i {
+  font-size: 22px;
+  color: #ffffff;
+}
+.header .header_block .ps_counseling {
+  width: 60%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header .header_block .ps_counseling .flag_couns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header .header_block .ps_counseling .flag_couns .flag {
+  font-size: 22px;
+  color: #3d83df;
+}
+.header .header_block .ps_counseling .flag_couns b {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.header .header_block .ps_counseling h6 {
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.header .header_block .ps_counseling a {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: #3d83df;
 }/*# sourceMappingURL=style.css.map */
