@@ -217,4 +217,74 @@ body {
   font-size: 16px;
   padding: 10px 25px;
   color: #3d83df;
+}
+
+.main {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+.main .readmore {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 25px 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.main .readmore a {
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #000000;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.main .readmore a:hover {
+  color: #3d83df;
+  border-color: #3d83df;
+}
+.main .readmore .mmor {
+  font-weight: 500;
+  color: #3d83df;
+  border-color: #3d83df;
+}
+.main .helpcard {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.main .helpcard .hcard_box {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main .helpcard .hcard_box .icontitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.main .helpcard .hcard_box .icontitle i {
+  font-size: 22px;
+  color: #00C2A5;
+}
+.main .helpcard .hcard_box .icontitle b {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 10px;
+}
+.main .helpcard .hcard_box p {
+  font-weight: 400;
+  font-size: 16px;
+  -moz-columns: #000000;
+       columns: #000000;
+  opacity: 0.8;
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */

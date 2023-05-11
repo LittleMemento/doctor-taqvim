@@ -25,5 +25,17 @@
   justify-content: center;
 }
 
+@mixin daww {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin dsj {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 $allRadius: 5px;
 $allTransition: 0.3s;

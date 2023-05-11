@@ -186,3 +186,65 @@
     }
   }
 }
+
+.main {
+  width: 100%;
+  background-color: $lightColor;
+  padding: 50px 0;
+  .readmore {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: $allRadius;
+    padding: 25px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    @include daww;
+    margin-top: 30px;
+    a {
+      font-weight: 400;
+      font-size: $smallSize;
+      margin-right: 10px;
+      color: $darkColor;
+      border-bottom: 1px solid transparent;
+      transition: $allTransition;
+      &:hover {
+        color: $blueColor;
+        border-color: $blueColor;
+      }
+    }
+    .mmor {
+      font-weight: 500;
+      color: $blueColor;
+      border-color: $blueColor;
+    }
+  }
+  .helpcard {
+    width: 60%;
+    margin: 0 auto;
+    @include dj;
+    margin-top: 50px;
+    .hcard_box {
+      width: 23%;
+      @include dff;
+      .icontitle {
+        @include dsj;
+        i {
+          font-size: $middleSize;
+          color: $mainColor;
+        }
+        b {
+          font-weight: 500;
+          font-size: $xSmallSize;
+          color: $darkColor;
+          margin-left: 10px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: $smallSize;
+        columns: $darkColor;
+        opacity: 0.8;
+        margin-top: 15px;
+      }
+    }
+  }
+}
