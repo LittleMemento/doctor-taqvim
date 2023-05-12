@@ -247,4 +247,227 @@
       }
     }
   }
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  .ratng_star {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    @include dsj;
+    .article_star {
+      width: 48%;
+      @include dff;
+      h4 {
+        font-weight: 600;
+        font-size: $xxSmallSize;
+        color: $darkColor;
+      }
+      .box_art {
+        width: 100%;
+        @include dsj;
+        margin-top: 30px;
+        .img_artside {
+          width: 18%;
+          border-radius: $allRadius;
+          img {
+            width: 100%;
+            border-radius: $allRadius;
+          }
+        }
+        .text_artside {
+          width: 80%;
+          span {
+            width: 100%;
+            @include daj;
+            .ratingstar_icon {
+              i {
+                font-size: $xxSmallSize;
+                color: $mainColor;
+                margin-left: 5px;
+              }
+            }
+          }
+          small {
+            font-weight: 500;
+            font-size: $xSmallSize;
+            color: $blueColor;
+          }
+          p {
+            font-weight: 400;
+            font-size: $smallSize;
+            color: $darkColor;
+            opacity: 0.8;
+            padding: 15px 10px;
+            border-radius: $allRadius;
+            background-color: rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+  .subsc_klient {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: $allRadius;
+    background-color: rgb(224, 247, 244);
+    @include daj;
+    .img_klientside {
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+    .text_klientside {
+      width: 55%;
+      @include dff;
+      h2 {
+        font-weight: 600;
+        font-size: $xxMiddleSize;
+        color: $darkColor;
+        margin-bottom: 10px;
+      }
+      span {
+        @include dsj;
+        margin-top: 10px;
+        p {
+          font-weight: 500;
+          font-size: $smallSize;
+          color: $darkColor;
+          opacity: 0.8;
+          margin-left: 10px;
+        }
+        i {
+          font-size: $middleSize;
+          color: $mainColor;
+        }
+      }
+      .btn_subscribe {
+        margin-top: 30px;
+        @include da;
+        padding: 15px;
+        border-radius: $allRadius;
+        background-color: $blueColor;
+        color: $lightColor;
+        small {
+          font-weight: 500;
+          font-size: $xSmallSize;
+          margin-right: 5px;
+        }
+        i {
+          font-size: $middleSize;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  @include dff;
+  .footer_block {
+    width: 100%;
+    @include dsj;
+    .link_box {
+      width: 22%;
+      @include dff;
+      b {
+        font-weight: 500;
+        font-size: $xxSmallSize;
+        color: $darkColor;
+        margin-bottom: 10px;
+      }
+      a {
+        font-weight: 400;
+        font-size: $smallSize;
+        color: $darkColor;
+        opacity: 0.8;
+        margin-top: 5px;
+        border-bottom: 1px solid transparent;
+        transition: $allTransition;
+        &:hover {
+          color: $blueColor;
+          border-color: $blueColor;
+        }
+      }
+    }
+    .flogo_box {
+      width: 25%;
+      @include dff;
+      .flogo {
+        width: 100%;
+        img {
+          width: 80%;
+        }
+      }
+      address {
+        margin-top: 10px;
+        p {
+          font-weight: 400;
+          font-size: $smallSize;
+          color: $darkColor;
+          opacity: 0.8;
+          margin-top: 5px;
+        }
+      }
+      .ficon_gr {
+        margin-top: 25px;
+        @include da;
+        a {
+          margin-right: 15px;
+          i {
+            font-size: $xxMiddleSize;
+            padding: 5px;
+            border-radius: 50%;
+            color: $lightColor;
+            background-color: rgba(0, 0, 0, 0.1);
+            transition: $allTransition;
+            &:hover {
+              background-color: $mainColor;
+            }
+          }
+        }
+      }
+    }
+  }
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 50px 0;
+  }
+  .fcopyright {
+    width: 100%;
+    @include dfc;
+    text-align: center;
+    .fstate_link {
+      @include da;
+      a {
+        font-weight: 500;
+        font-size: $smallSize;
+        color: $blueColor;
+        margin: 5px;
+        border-bottom: 1px solid transparent;
+        transition: $allTransition;
+        &:hover {
+          border-color: $blueColor;
+        }
+      }
+    }
+    small, p {
+      font-weight: 400;
+      font-size: $smallSize;
+      color: $darkColor;
+      opacity: 0.8;
+      margin-top: 30px;
+    }
+  }
 }
